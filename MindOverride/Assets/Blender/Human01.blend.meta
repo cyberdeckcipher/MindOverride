@@ -1,0 +1,156 @@
+fileFormatVersion: 2
+guid: 696409788f6c6214c814a48f350bad49
+timeCreated: 1490476506
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bone
+    100002: Character_Circle
+    100004: Chest
+    100006: Elbow_L
+    100008: Elbow_R
+    100010: Feet_L
+    100012: Feet_R
+    100014: FeetIK_L
+    100016: FeetIK_R
+    100018: Hand_L
+    100020: Hand_R
+    100022: HandIK_L
+    100024: HandIK_R
+    100026: Head
+    100028: Human
+    100030: //RootNode
+    100032: IK_Plane
+    100034: Knee_L
+    100036: Knee_R
+    100038: LowerArm_L
+    100040: LowerArm_R
+    100042: LowerLeg_L
+    100044: LowerLeg_R
+    100046: Neck
+    100048: Pelvis
+    100050: Pelvis_Circle
+    100052: Pole_Sphere
+    100054: Pulse_Circle
+    100056: SimpleHumanBones
+    100058: UpperArm_L
+    100060: UpperArm_R
+    100062: UpperLeg_L
+    100064: UpperLeg_R
+    400000: Bone
+    400002: Character_Circle
+    400004: Chest
+    400006: Elbow_L
+    400008: Elbow_R
+    400010: Feet_L
+    400012: Feet_R
+    400014: FeetIK_L
+    400016: FeetIK_R
+    400018: Hand_L
+    400020: Hand_R
+    400022: HandIK_L
+    400024: HandIK_R
+    400026: Head
+    400028: Human
+    400030: //RootNode
+    400032: IK_Plane
+    400034: Knee_L
+    400036: Knee_R
+    400038: LowerArm_L
+    400040: LowerArm_R
+    400042: LowerLeg_L
+    400044: LowerLeg_R
+    400046: Neck
+    400048: Pelvis
+    400050: Pelvis_Circle
+    400052: Pole_Sphere
+    400054: Pulse_Circle
+    400056: SimpleHumanBones
+    400058: UpperArm_L
+    400060: UpperArm_R
+    400062: UpperLeg_L
+    400064: UpperLeg_R
+    2300000: Character_Circle
+    2300002: IK_Plane
+    2300004: Pelvis_Circle
+    2300006: Pole_Sphere
+    2300008: Pulse_Circle
+    3300000: Character_Circle
+    3300002: IK_Plane
+    3300004: Pelvis_Circle
+    3300006: Pole_Sphere
+    3300008: Pulse_Circle
+    4300000: Pulse_Circle
+    4300002: Pelvis_Circle
+    4300004: IK_Plane
+    4300006: Pole_Sphere
+    4300008: Character_Circle
+    4300010: Human
+    7400000: Default Take
+    9500000: //RootNode
+    13700000: Human
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

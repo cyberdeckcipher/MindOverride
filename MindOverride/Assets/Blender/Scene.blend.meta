@@ -1,0 +1,185 @@
+fileFormatVersion: 2
+guid: 5802e85cbe3c9fa438d0d3a4f77b2e8a
+timeCreated: 1477945534
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Base
+    100002: Base_001
+    100004: Base_002
+    100006: Base_003
+    100008: Base_004
+    100010: Base_005
+    100012: Base_006
+    100014: Base_007
+    100016: Base_008
+    100018: midle
+    100020: midle_001
+    100022: midle_002
+    100024: Plane
+    100026: Plane_001
+    100028: //RootNode
+    100030: base_001
+    100032: Corner
+    100034: End
+    100036: Mesa
+    100038: middle
+    100040: Plane_002
+    100042: midle_003
+    100044: End_001
+    400000: Base
+    400002: Base_001
+    400004: Base_002
+    400006: Base_003
+    400008: Base_004
+    400010: Base_005
+    400012: Base_006
+    400014: Base_007
+    400016: Base_008
+    400018: midle
+    400020: midle_001
+    400022: midle_002
+    400024: Plane
+    400026: Plane_001
+    400028: //RootNode
+    400030: base_001
+    400032: Corner
+    400034: End
+    400036: Mesa
+    400038: middle
+    400040: Plane_002
+    400042: midle_003
+    400044: End_001
+    2300000: Base
+    2300002: Base_001
+    2300004: Base_002
+    2300006: Base_003
+    2300008: Base_004
+    2300010: Base_005
+    2300012: Base_006
+    2300014: Base_007
+    2300016: Base_008
+    2300018: midle
+    2300020: midle_001
+    2300022: midle_002
+    2300024: Plane
+    2300026: Plane_001
+    2300028: base_001
+    2300030: Corner
+    2300032: End
+    2300034: Mesa
+    2300036: middle
+    2300038: Plane_002
+    2300040: midle_003
+    2300042: End_001
+    3300000: Base
+    3300002: Base_001
+    3300004: Base_002
+    3300006: Base_003
+    3300008: Base_004
+    3300010: Base_005
+    3300012: Base_006
+    3300014: Base_007
+    3300016: Base_008
+    3300018: midle
+    3300020: midle_001
+    3300022: midle_002
+    3300024: Plane
+    3300026: Plane_001
+    3300028: base_001
+    3300030: Corner
+    3300032: End
+    3300034: Mesa
+    3300036: middle
+    3300038: Plane_002
+    3300040: midle_003
+    3300042: End_001
+    4300000: Base_008
+    4300002: Base_007
+    4300004: Base_006
+    4300006: Base_005
+    4300008: Plane
+    4300010: Base
+    4300012: Base_001
+    4300014: Base_002
+    4300016: Base_003
+    4300018: Base_004
+    4300020: midle
+    4300022: midle_001
+    4300024: midle_002
+    4300026: Plane_001
+    4300028: Plane_002
+    4300030: base_001
+    4300032: Corner
+    4300034: End
+    4300036: Mesa
+    4300038: middle
+    4300040: midle_003
+    4300042: End_001
+    7400000: Default Take
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

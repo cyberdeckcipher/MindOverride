@@ -1,0 +1,2135 @@
+fileFormatVersion: 2
+guid: 7d60046c2d1999e4e81b2a544d61071c
+timeCreated: 1497583120
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Abdomem
+    100002: Armature
+    100004: Bone
+    100006: Chest
+    100008: Cop_01.004
+    100010: Elbow.L
+    100012: Elbow.L_end
+    100014: Elbow.R
+    100016: Elbow.R_end
+    100018: Feet.L
+    100020: Feet.L_end
+    100022: Feet.R
+    100024: Feet.R_end
+    100026: FeetIK.L
+    100028: FeetIK.R
+    100030: Hand.L
+    100032: Hand.L_end
+    100034: Hand.R
+    100036: Hand.R_end
+    100038: HandIK.L
+    100040: HandIK.R
+    100042: Head
+    100044: Head_end
+    100046: //RootNode
+    100048: Knee.L
+    100050: Knee.L_end
+    100052: Knee.R
+    100054: Knee.R_end
+    100056: LowerArm.L
+    100058: LowerArm.L_end
+    100060: LowerArm.R
+    100062: LowerArm.R_end
+    100064: LowerLeg.L
+    100066: LowerLeg.L_end
+    100068: LowerLeg.R
+    100070: LowerLeg.R_end
+    100072: UpperArm.L
+    100074: UpperArm.R
+    100076: UpperLeg.L
+    100078: UpperLeg.R
+    400000: Abdomem
+    400002: Armature
+    400004: Bone
+    400006: Chest
+    400008: Cop_01.004
+    400010: Elbow.L
+    400012: Elbow.L_end
+    400014: Elbow.R
+    400016: Elbow.R_end
+    400018: Feet.L
+    400020: Feet.L_end
+    400022: Feet.R
+    400024: Feet.R_end
+    400026: FeetIK.L
+    400028: FeetIK.R
+    400030: Hand.L
+    400032: Hand.L_end
+    400034: Hand.R
+    400036: Hand.R_end
+    400038: HandIK.L
+    400040: HandIK.R
+    400042: Head
+    400044: Head_end
+    400046: //RootNode
+    400048: Knee.L
+    400050: Knee.L_end
+    400052: Knee.R
+    400054: Knee.R_end
+    400056: LowerArm.L
+    400058: LowerArm.L_end
+    400060: LowerArm.R
+    400062: LowerArm.R_end
+    400064: LowerLeg.L
+    400066: LowerLeg.L_end
+    400068: LowerLeg.R
+    400070: LowerLeg.R_end
+    400072: UpperArm.L
+    400074: UpperArm.R
+    400076: UpperLeg.L
+    400078: UpperLeg.R
+    4300000: Cop_01.004
+    7400000: Armature|attackMelee_1
+    7400002: Armature|attackMelee_2
+    7400004: Armature|attackRanged_1
+    7400006: Armature|attackRanged_2
+    7400008: Armature|damage_1
+    7400010: Armature|damage_2
+    7400012: Armature|death_1
+    7400014: Armature|death_2
+    7400016: Armature|idle_1
+    7400018: Armature|idle_1_1
+    7400020: Armature|idle_1_2
+    7400022: Armature|idle_2
+    7400024: Armature|interact_1
+    7400026: Armature|interact_2
+    7400028: Armature|walk_1
+    7400030: Armature|walk_2
+    7400032: Armature|inTupe
+    9500000: //RootNode
+    13700000: Cop_01.004
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|attackMelee_1
+      takeName: Armature|attackMelee_1
+      firstFrame: 0
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.497048
+        functionName: sfx_Play_Punch
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 40c8a3b75ce5c8941a3e37ae8dc58d62,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Abdomem
+        weight: 1
+      - path: Armature/Bone/Abdomem/Chest
+        weight: 1
+      - path: Armature/Bone/Abdomem/Chest/Head
+        weight: 1
+      - path: Armature/Bone/Abdomem/Chest/Head/Head_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.L/LowerArm.L/LowerArm.L_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.R/LowerArm.R/LowerArm.R_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.L/LowerLeg.L/LowerLeg.L_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.R/LowerLeg.R/LowerLeg.R_end
+        weight: 1
+      - path: Armature/Bone/Elbow.L
+        weight: 1
+      - path: Armature/Bone/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: Armature/Bone/Elbow.R
+        weight: 1
+      - path: Armature/Bone/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: Armature/Bone/FeetIK.L
+        weight: 1
+      - path: Armature/Bone/FeetIK.L/Feet.L
+        weight: 1
+      - path: Armature/Bone/FeetIK.L/Feet.L/Feet.L_end
+        weight: 1
+      - path: Armature/Bone/FeetIK.R
+        weight: 1
+      - path: Armature/Bone/FeetIK.R/Feet.R
+        weight: 1
+      - path: Armature/Bone/FeetIK.R/Feet.R/Feet.R_end
+        weight: 1
+      - path: Armature/Bone/HandIK.L
+        weight: 1
+      - path: Armature/Bone/HandIK.L/Hand.L
+        weight: 1
+      - path: Armature/Bone/HandIK.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Bone/HandIK.R
+        weight: 1
+      - path: Armature/Bone/HandIK.R/Hand.R
+        weight: 1
+      - path: Armature/Bone/HandIK.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Bone/Knee.L
+        weight: 1
+      - path: Armature/Bone/Knee.L/Knee.L_end
+        weight: 1
+      - path: Armature/Bone/Knee.R
+        weight: 1
+      - path: Armature/Bone/Knee.R/Knee.R_end
+        weight: 1
+      - path: Cop_01.004
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|attackMelee_2
+      takeName: Armature|attackMelee_2
+      firstFrame: 0
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.4998251
+        functionName: sfx_Play_Punch
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 40c8a3b75ce5c8941a3e37ae8dc58d62,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Abdomem
+        weight: 1
+      - path: Armature/Bone/Abdomem/Chest
+        weight: 1
+      - path: Armature/Bone/Abdomem/Chest/Head
+        weight: 1
+      - path: Armature/Bone/Abdomem/Chest/Head/Head_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.L/LowerArm.L/LowerArm.L_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.R/LowerArm.R/LowerArm.R_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.L/LowerLeg.L/LowerLeg.L_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.R/LowerLeg.R/LowerLeg.R_end
+        weight: 1
+      - path: Armature/Bone/Elbow.L
+        weight: 1
+      - path: Armature/Bone/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: Armature/Bone/Elbow.R
+        weight: 1
+      - path: Armature/Bone/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: Armature/Bone/FeetIK.L
+        weight: 1
+      - path: Armature/Bone/FeetIK.L/Feet.L
+        weight: 1
+      - path: Armature/Bone/FeetIK.L/Feet.L/Feet.L_end
+        weight: 1
+      - path: Armature/Bone/FeetIK.R
+        weight: 1
+      - path: Armature/Bone/FeetIK.R/Feet.R
+        weight: 1
+      - path: Armature/Bone/FeetIK.R/Feet.R/Feet.R_end
+        weight: 1
+      - path: Armature/Bone/HandIK.L
+        weight: 1
+      - path: Armature/Bone/HandIK.L/Hand.L
+        weight: 1
+      - path: Armature/Bone/HandIK.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Bone/HandIK.R
+        weight: 1
+      - path: Armature/Bone/HandIK.R/Hand.R
+        weight: 1
+      - path: Armature/Bone/HandIK.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Bone/Knee.L
+        weight: 1
+      - path: Armature/Bone/Knee.L/Knee.L_end
+        weight: 1
+      - path: Armature/Bone/Knee.R
+        weight: 1
+      - path: Armature/Bone/Knee.R/Knee.R_end
+        weight: 1
+      - path: Cop_01.004
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|attackRanged_1
+      takeName: Armature|attackRanged_1
+      firstFrame: 0
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.4436937
+        functionName: sfx_Play_Shot
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 40c8a3b75ce5c8941a3e37ae8dc58d62,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Abdomem
+        weight: 1
+      - path: Armature/Bone/Abdomem/Chest
+        weight: 1
+      - path: Armature/Bone/Abdomem/Chest/Head
+        weight: 1
+      - path: Armature/Bone/Abdomem/Chest/Head/Head_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.L/LowerArm.L/LowerArm.L_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.R/LowerArm.R/LowerArm.R_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.L/LowerLeg.L/LowerLeg.L_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.R/LowerLeg.R/LowerLeg.R_end
+        weight: 1
+      - path: Armature/Bone/Elbow.L
+        weight: 1
+      - path: Armature/Bone/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: Armature/Bone/Elbow.R
+        weight: 1
+      - path: Armature/Bone/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: Armature/Bone/FeetIK.L
+        weight: 1
+      - path: Armature/Bone/FeetIK.L/Feet.L
+        weight: 1
+      - path: Armature/Bone/FeetIK.L/Feet.L/Feet.L_end
+        weight: 1
+      - path: Armature/Bone/FeetIK.R
+        weight: 1
+      - path: Armature/Bone/FeetIK.R/Feet.R
+        weight: 1
+      - path: Armature/Bone/FeetIK.R/Feet.R/Feet.R_end
+        weight: 1
+      - path: Armature/Bone/HandIK.L
+        weight: 1
+      - path: Armature/Bone/HandIK.L/Hand.L
+        weight: 1
+      - path: Armature/Bone/HandIK.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Bone/HandIK.R
+        weight: 1
+      - path: Armature/Bone/HandIK.R/Hand.R
+        weight: 1
+      - path: Armature/Bone/HandIK.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Bone/Knee.L
+        weight: 1
+      - path: Armature/Bone/Knee.L/Knee.L_end
+        weight: 1
+      - path: Armature/Bone/Knee.R
+        weight: 1
+      - path: Armature/Bone/Knee.R/Knee.R_end
+        weight: 1
+      - path: Cop_01.004
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|attackRanged_2
+      takeName: Armature|attackRanged_2
+      firstFrame: 0
+      lastFrame: 45
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.47021776
+        functionName: sfx_Play_Shot
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 40c8a3b75ce5c8941a3e37ae8dc58d62,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Abdomem
+        weight: 1
+      - path: Armature/Bone/Abdomem/Chest
+        weight: 1
+      - path: Armature/Bone/Abdomem/Chest/Head
+        weight: 1
+      - path: Armature/Bone/Abdomem/Chest/Head/Head_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.L/LowerArm.L/LowerArm.L_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.R/LowerArm.R/LowerArm.R_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.L/LowerLeg.L/LowerLeg.L_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.R/LowerLeg.R/LowerLeg.R_end
+        weight: 1
+      - path: Armature/Bone/Elbow.L
+        weight: 1
+      - path: Armature/Bone/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: Armature/Bone/Elbow.R
+        weight: 1
+      - path: Armature/Bone/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: Armature/Bone/FeetIK.L
+        weight: 1
+      - path: Armature/Bone/FeetIK.L/Feet.L
+        weight: 1
+      - path: Armature/Bone/FeetIK.L/Feet.L/Feet.L_end
+        weight: 1
+      - path: Armature/Bone/FeetIK.R
+        weight: 1
+      - path: Armature/Bone/FeetIK.R/Feet.R
+        weight: 1
+      - path: Armature/Bone/FeetIK.R/Feet.R/Feet.R_end
+        weight: 1
+      - path: Armature/Bone/HandIK.L
+        weight: 1
+      - path: Armature/Bone/HandIK.L/Hand.L
+        weight: 1
+      - path: Armature/Bone/HandIK.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Bone/HandIK.R
+        weight: 1
+      - path: Armature/Bone/HandIK.R/Hand.R
+        weight: 1
+      - path: Armature/Bone/HandIK.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Bone/Knee.L
+        weight: 1
+      - path: Armature/Bone/Knee.L/Knee.L_end
+        weight: 1
+      - path: Armature/Bone/Knee.R
+        weight: 1
+      - path: Armature/Bone/Knee.R/Knee.R_end
+        weight: 1
+      - path: Cop_01.004
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|damage_1
+      takeName: Armature|damage_1
+      firstFrame: 0
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.01819295
+        functionName: sfx_Play_Damage
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 40c8a3b75ce5c8941a3e37ae8dc58d62,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.97986573
+        functionName: Battle_End
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 40c8a3b75ce5c8941a3e37ae8dc58d62,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Abdomem
+        weight: 1
+      - path: Armature/Bone/Abdomem/Chest
+        weight: 1
+      - path: Armature/Bone/Abdomem/Chest/Head
+        weight: 1
+      - path: Armature/Bone/Abdomem/Chest/Head/Head_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.L/LowerArm.L/LowerArm.L_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.R/LowerArm.R/LowerArm.R_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.L/LowerLeg.L/LowerLeg.L_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.R/LowerLeg.R/LowerLeg.R_end
+        weight: 1
+      - path: Armature/Bone/Elbow.L
+        weight: 1
+      - path: Armature/Bone/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: Armature/Bone/Elbow.R
+        weight: 1
+      - path: Armature/Bone/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: Armature/Bone/FeetIK.L
+        weight: 1
+      - path: Armature/Bone/FeetIK.L/Feet.L
+        weight: 1
+      - path: Armature/Bone/FeetIK.L/Feet.L/Feet.L_end
+        weight: 1
+      - path: Armature/Bone/FeetIK.R
+        weight: 1
+      - path: Armature/Bone/FeetIK.R/Feet.R
+        weight: 1
+      - path: Armature/Bone/FeetIK.R/Feet.R/Feet.R_end
+        weight: 1
+      - path: Armature/Bone/HandIK.L
+        weight: 1
+      - path: Armature/Bone/HandIK.L/Hand.L
+        weight: 1
+      - path: Armature/Bone/HandIK.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Bone/HandIK.R
+        weight: 1
+      - path: Armature/Bone/HandIK.R/Hand.R
+        weight: 1
+      - path: Armature/Bone/HandIK.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Bone/Knee.L
+        weight: 1
+      - path: Armature/Bone/Knee.L/Knee.L_end
+        weight: 1
+      - path: Armature/Bone/Knee.R
+        weight: 1
+      - path: Armature/Bone/Knee.R/Knee.R_end
+        weight: 1
+      - path: Cop_01.004
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|damage_2
+      takeName: Armature|damage_2
+      firstFrame: 0
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.02785796
+        functionName: sfx_Play_Damage
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 40c8a3b75ce5c8941a3e37ae8dc58d62,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.97986573
+        functionName: Battle_End
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 40c8a3b75ce5c8941a3e37ae8dc58d62,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Abdomem
+        weight: 1
+      - path: Armature/Bone/Abdomem/Chest
+        weight: 1
+      - path: Armature/Bone/Abdomem/Chest/Head
+        weight: 1
+      - path: Armature/Bone/Abdomem/Chest/Head/Head_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.L/LowerArm.L/LowerArm.L_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.R/LowerArm.R/LowerArm.R_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.L/LowerLeg.L/LowerLeg.L_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.R/LowerLeg.R/LowerLeg.R_end
+        weight: 1
+      - path: Armature/Bone/Elbow.L
+        weight: 1
+      - path: Armature/Bone/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: Armature/Bone/Elbow.R
+        weight: 1
+      - path: Armature/Bone/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: Armature/Bone/FeetIK.L
+        weight: 1
+      - path: Armature/Bone/FeetIK.L/Feet.L
+        weight: 1
+      - path: Armature/Bone/FeetIK.L/Feet.L/Feet.L_end
+        weight: 1
+      - path: Armature/Bone/FeetIK.R
+        weight: 1
+      - path: Armature/Bone/FeetIK.R/Feet.R
+        weight: 1
+      - path: Armature/Bone/FeetIK.R/Feet.R/Feet.R_end
+        weight: 1
+      - path: Armature/Bone/HandIK.L
+        weight: 1
+      - path: Armature/Bone/HandIK.L/Hand.L
+        weight: 1
+      - path: Armature/Bone/HandIK.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Bone/HandIK.R
+        weight: 1
+      - path: Armature/Bone/HandIK.R/Hand.R
+        weight: 1
+      - path: Armature/Bone/HandIK.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Bone/Knee.L
+        weight: 1
+      - path: Armature/Bone/Knee.L/Knee.L_end
+        weight: 1
+      - path: Armature/Bone/Knee.R
+        weight: 1
+      - path: Armature/Bone/Knee.R/Knee.R_end
+        weight: 1
+      - path: Cop_01.004
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|death_1
+      takeName: Armature|death_1
+      firstFrame: 0
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.015197237
+        functionName: sfx_Play_Death
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 40c8a3b75ce5c8941a3e37ae8dc58d62,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.9977629
+        functionName: Battle_End
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 40c8a3b75ce5c8941a3e37ae8dc58d62,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Abdomem
+        weight: 1
+      - path: Armature/Bone/Abdomem/Chest
+        weight: 1
+      - path: Armature/Bone/Abdomem/Chest/Head
+        weight: 1
+      - path: Armature/Bone/Abdomem/Chest/Head/Head_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.L/LowerArm.L/LowerArm.L_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.R/LowerArm.R/LowerArm.R_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.L/LowerLeg.L/LowerLeg.L_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.R/LowerLeg.R/LowerLeg.R_end
+        weight: 1
+      - path: Armature/Bone/Elbow.L
+        weight: 1
+      - path: Armature/Bone/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: Armature/Bone/Elbow.R
+        weight: 1
+      - path: Armature/Bone/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: Armature/Bone/FeetIK.L
+        weight: 1
+      - path: Armature/Bone/FeetIK.L/Feet.L
+        weight: 1
+      - path: Armature/Bone/FeetIK.L/Feet.L/Feet.L_end
+        weight: 1
+      - path: Armature/Bone/FeetIK.R
+        weight: 1
+      - path: Armature/Bone/FeetIK.R/Feet.R
+        weight: 1
+      - path: Armature/Bone/FeetIK.R/Feet.R/Feet.R_end
+        weight: 1
+      - path: Armature/Bone/HandIK.L
+        weight: 1
+      - path: Armature/Bone/HandIK.L/Hand.L
+        weight: 1
+      - path: Armature/Bone/HandIK.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Bone/HandIK.R
+        weight: 1
+      - path: Armature/Bone/HandIK.R/Hand.R
+        weight: 1
+      - path: Armature/Bone/HandIK.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Bone/Knee.L
+        weight: 1
+      - path: Armature/Bone/Knee.L/Knee.L_end
+        weight: 1
+      - path: Armature/Bone/Knee.R
+        weight: 1
+      - path: Armature/Bone/Knee.R/Knee.R_end
+        weight: 1
+      - path: Cop_01.004
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|death_2
+      takeName: Armature|death_2
+      firstFrame: 0
+      lastFrame: 25
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.015547097
+        functionName: sfx_Play_Death
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 40c8a3b75ce5c8941a3e37ae8dc58d62,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 1
+        functionName: Battle_End
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 40c8a3b75ce5c8941a3e37ae8dc58d62,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Abdomem
+        weight: 1
+      - path: Armature/Bone/Abdomem/Chest
+        weight: 1
+      - path: Armature/Bone/Abdomem/Chest/Head
+        weight: 1
+      - path: Armature/Bone/Abdomem/Chest/Head/Head_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.L/LowerArm.L/LowerArm.L_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.R/LowerArm.R/LowerArm.R_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.L/LowerLeg.L/LowerLeg.L_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.R/LowerLeg.R/LowerLeg.R_end
+        weight: 1
+      - path: Armature/Bone/Elbow.L
+        weight: 1
+      - path: Armature/Bone/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: Armature/Bone/Elbow.R
+        weight: 1
+      - path: Armature/Bone/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: Armature/Bone/FeetIK.L
+        weight: 1
+      - path: Armature/Bone/FeetIK.L/Feet.L
+        weight: 1
+      - path: Armature/Bone/FeetIK.L/Feet.L/Feet.L_end
+        weight: 1
+      - path: Armature/Bone/FeetIK.R
+        weight: 1
+      - path: Armature/Bone/FeetIK.R/Feet.R
+        weight: 1
+      - path: Armature/Bone/FeetIK.R/Feet.R/Feet.R_end
+        weight: 1
+      - path: Armature/Bone/HandIK.L
+        weight: 1
+      - path: Armature/Bone/HandIK.L/Hand.L
+        weight: 1
+      - path: Armature/Bone/HandIK.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Bone/HandIK.R
+        weight: 1
+      - path: Armature/Bone/HandIK.R/Hand.R
+        weight: 1
+      - path: Armature/Bone/HandIK.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Bone/Knee.L
+        weight: 1
+      - path: Armature/Bone/Knee.L/Knee.L_end
+        weight: 1
+      - path: Armature/Bone/Knee.R
+        weight: 1
+      - path: Armature/Bone/Knee.R/Knee.R_end
+        weight: 1
+      - path: Cop_01.004
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|idle_1
+      takeName: Armature|idle_1
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Abdomem
+        weight: 1
+      - path: Armature/Bone/Abdomem/Chest
+        weight: 1
+      - path: Armature/Bone/Abdomem/Chest/Head
+        weight: 1
+      - path: Armature/Bone/Abdomem/Chest/Head/Head_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.L/LowerArm.L/LowerArm.L_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.R/LowerArm.R/LowerArm.R_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.L/LowerLeg.L/LowerLeg.L_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.R/LowerLeg.R/LowerLeg.R_end
+        weight: 1
+      - path: Armature/Bone/Elbow.L
+        weight: 1
+      - path: Armature/Bone/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: Armature/Bone/Elbow.R
+        weight: 1
+      - path: Armature/Bone/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: Armature/Bone/FeetIK.L
+        weight: 1
+      - path: Armature/Bone/FeetIK.L/Feet.L
+        weight: 1
+      - path: Armature/Bone/FeetIK.L/Feet.L/Feet.L_end
+        weight: 1
+      - path: Armature/Bone/FeetIK.R
+        weight: 1
+      - path: Armature/Bone/FeetIK.R/Feet.R
+        weight: 1
+      - path: Armature/Bone/FeetIK.R/Feet.R/Feet.R_end
+        weight: 1
+      - path: Armature/Bone/HandIK.L
+        weight: 1
+      - path: Armature/Bone/HandIK.L/Hand.L
+        weight: 1
+      - path: Armature/Bone/HandIK.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Bone/HandIK.R
+        weight: 1
+      - path: Armature/Bone/HandIK.R/Hand.R
+        weight: 1
+      - path: Armature/Bone/HandIK.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Bone/Knee.L
+        weight: 1
+      - path: Armature/Bone/Knee.L/Knee.L_end
+        weight: 1
+      - path: Armature/Bone/Knee.R
+        weight: 1
+      - path: Armature/Bone/Knee.R/Knee.R_end
+        weight: 1
+      - path: Cop_01.004
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|idle_1_1
+      takeName: Armature|idle_1_1
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Abdomem
+        weight: 1
+      - path: Armature/Bone/Abdomem/Chest
+        weight: 1
+      - path: Armature/Bone/Abdomem/Chest/Head
+        weight: 1
+      - path: Armature/Bone/Abdomem/Chest/Head/Head_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.L/LowerArm.L/LowerArm.L_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.R/LowerArm.R/LowerArm.R_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.L/LowerLeg.L/LowerLeg.L_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.R/LowerLeg.R/LowerLeg.R_end
+        weight: 1
+      - path: Armature/Bone/Elbow.L
+        weight: 1
+      - path: Armature/Bone/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: Armature/Bone/Elbow.R
+        weight: 1
+      - path: Armature/Bone/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: Armature/Bone/FeetIK.L
+        weight: 1
+      - path: Armature/Bone/FeetIK.L/Feet.L
+        weight: 1
+      - path: Armature/Bone/FeetIK.L/Feet.L/Feet.L_end
+        weight: 1
+      - path: Armature/Bone/FeetIK.R
+        weight: 1
+      - path: Armature/Bone/FeetIK.R/Feet.R
+        weight: 1
+      - path: Armature/Bone/FeetIK.R/Feet.R/Feet.R_end
+        weight: 1
+      - path: Armature/Bone/HandIK.L
+        weight: 1
+      - path: Armature/Bone/HandIK.L/Hand.L
+        weight: 1
+      - path: Armature/Bone/HandIK.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Bone/HandIK.R
+        weight: 1
+      - path: Armature/Bone/HandIK.R/Hand.R
+        weight: 1
+      - path: Armature/Bone/HandIK.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Bone/Knee.L
+        weight: 1
+      - path: Armature/Bone/Knee.L/Knee.L_end
+        weight: 1
+      - path: Armature/Bone/Knee.R
+        weight: 1
+      - path: Armature/Bone/Knee.R/Knee.R_end
+        weight: 1
+      - path: Cop_01.004
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|idle_1_2
+      takeName: Armature|idle_1_2
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Abdomem
+        weight: 1
+      - path: Armature/Bone/Abdomem/Chest
+        weight: 1
+      - path: Armature/Bone/Abdomem/Chest/Head
+        weight: 1
+      - path: Armature/Bone/Abdomem/Chest/Head/Head_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.L/LowerArm.L/LowerArm.L_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.R/LowerArm.R/LowerArm.R_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.L/LowerLeg.L/LowerLeg.L_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.R/LowerLeg.R/LowerLeg.R_end
+        weight: 1
+      - path: Armature/Bone/Elbow.L
+        weight: 1
+      - path: Armature/Bone/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: Armature/Bone/Elbow.R
+        weight: 1
+      - path: Armature/Bone/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: Armature/Bone/FeetIK.L
+        weight: 1
+      - path: Armature/Bone/FeetIK.L/Feet.L
+        weight: 1
+      - path: Armature/Bone/FeetIK.L/Feet.L/Feet.L_end
+        weight: 1
+      - path: Armature/Bone/FeetIK.R
+        weight: 1
+      - path: Armature/Bone/FeetIK.R/Feet.R
+        weight: 1
+      - path: Armature/Bone/FeetIK.R/Feet.R/Feet.R_end
+        weight: 1
+      - path: Armature/Bone/HandIK.L
+        weight: 1
+      - path: Armature/Bone/HandIK.L/Hand.L
+        weight: 1
+      - path: Armature/Bone/HandIK.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Bone/HandIK.R
+        weight: 1
+      - path: Armature/Bone/HandIK.R/Hand.R
+        weight: 1
+      - path: Armature/Bone/HandIK.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Bone/Knee.L
+        weight: 1
+      - path: Armature/Bone/Knee.L/Knee.L_end
+        weight: 1
+      - path: Armature/Bone/Knee.R
+        weight: 1
+      - path: Armature/Bone/Knee.R/Knee.R_end
+        weight: 1
+      - path: Cop_01.004
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|idle_2
+      takeName: Armature|idle_2
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Abdomem
+        weight: 1
+      - path: Armature/Bone/Abdomem/Chest
+        weight: 1
+      - path: Armature/Bone/Abdomem/Chest/Head
+        weight: 1
+      - path: Armature/Bone/Abdomem/Chest/Head/Head_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.L/LowerArm.L/LowerArm.L_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.R/LowerArm.R/LowerArm.R_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.L/LowerLeg.L/LowerLeg.L_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.R/LowerLeg.R/LowerLeg.R_end
+        weight: 1
+      - path: Armature/Bone/Elbow.L
+        weight: 1
+      - path: Armature/Bone/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: Armature/Bone/Elbow.R
+        weight: 1
+      - path: Armature/Bone/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: Armature/Bone/FeetIK.L
+        weight: 1
+      - path: Armature/Bone/FeetIK.L/Feet.L
+        weight: 1
+      - path: Armature/Bone/FeetIK.L/Feet.L/Feet.L_end
+        weight: 1
+      - path: Armature/Bone/FeetIK.R
+        weight: 1
+      - path: Armature/Bone/FeetIK.R/Feet.R
+        weight: 1
+      - path: Armature/Bone/FeetIK.R/Feet.R/Feet.R_end
+        weight: 1
+      - path: Armature/Bone/HandIK.L
+        weight: 1
+      - path: Armature/Bone/HandIK.L/Hand.L
+        weight: 1
+      - path: Armature/Bone/HandIK.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Bone/HandIK.R
+        weight: 1
+      - path: Armature/Bone/HandIK.R/Hand.R
+        weight: 1
+      - path: Armature/Bone/HandIK.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Bone/Knee.L
+        weight: 1
+      - path: Armature/Bone/Knee.L/Knee.L_end
+        weight: 1
+      - path: Armature/Bone/Knee.R
+        weight: 1
+      - path: Armature/Bone/Knee.R/Knee.R_end
+        weight: 1
+      - path: Cop_01.004
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|interact_1
+      takeName: Armature|interact_1
+      firstFrame: 0
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Abdomem
+        weight: 1
+      - path: Armature/Bone/Abdomem/Chest
+        weight: 1
+      - path: Armature/Bone/Abdomem/Chest/Head
+        weight: 1
+      - path: Armature/Bone/Abdomem/Chest/Head/Head_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.L/LowerArm.L/LowerArm.L_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.R/LowerArm.R/LowerArm.R_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.L/LowerLeg.L/LowerLeg.L_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.R/LowerLeg.R/LowerLeg.R_end
+        weight: 1
+      - path: Armature/Bone/Elbow.L
+        weight: 1
+      - path: Armature/Bone/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: Armature/Bone/Elbow.R
+        weight: 1
+      - path: Armature/Bone/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: Armature/Bone/FeetIK.L
+        weight: 1
+      - path: Armature/Bone/FeetIK.L/Feet.L
+        weight: 1
+      - path: Armature/Bone/FeetIK.L/Feet.L/Feet.L_end
+        weight: 1
+      - path: Armature/Bone/FeetIK.R
+        weight: 1
+      - path: Armature/Bone/FeetIK.R/Feet.R
+        weight: 1
+      - path: Armature/Bone/FeetIK.R/Feet.R/Feet.R_end
+        weight: 1
+      - path: Armature/Bone/HandIK.L
+        weight: 1
+      - path: Armature/Bone/HandIK.L/Hand.L
+        weight: 1
+      - path: Armature/Bone/HandIK.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Bone/HandIK.R
+        weight: 1
+      - path: Armature/Bone/HandIK.R/Hand.R
+        weight: 1
+      - path: Armature/Bone/HandIK.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Bone/Knee.L
+        weight: 1
+      - path: Armature/Bone/Knee.L/Knee.L_end
+        weight: 1
+      - path: Armature/Bone/Knee.R
+        weight: 1
+      - path: Armature/Bone/Knee.R/Knee.R_end
+        weight: 1
+      - path: Cop_01.004
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|interact_2
+      takeName: Armature|interact_2
+      firstFrame: 0
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Abdomem
+        weight: 1
+      - path: Armature/Bone/Abdomem/Chest
+        weight: 1
+      - path: Armature/Bone/Abdomem/Chest/Head
+        weight: 1
+      - path: Armature/Bone/Abdomem/Chest/Head/Head_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.L/LowerArm.L/LowerArm.L_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.R/LowerArm.R/LowerArm.R_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.L/LowerLeg.L/LowerLeg.L_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.R/LowerLeg.R/LowerLeg.R_end
+        weight: 1
+      - path: Armature/Bone/Elbow.L
+        weight: 1
+      - path: Armature/Bone/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: Armature/Bone/Elbow.R
+        weight: 1
+      - path: Armature/Bone/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: Armature/Bone/FeetIK.L
+        weight: 1
+      - path: Armature/Bone/FeetIK.L/Feet.L
+        weight: 1
+      - path: Armature/Bone/FeetIK.L/Feet.L/Feet.L_end
+        weight: 1
+      - path: Armature/Bone/FeetIK.R
+        weight: 1
+      - path: Armature/Bone/FeetIK.R/Feet.R
+        weight: 1
+      - path: Armature/Bone/FeetIK.R/Feet.R/Feet.R_end
+        weight: 1
+      - path: Armature/Bone/HandIK.L
+        weight: 1
+      - path: Armature/Bone/HandIK.L/Hand.L
+        weight: 1
+      - path: Armature/Bone/HandIK.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Bone/HandIK.R
+        weight: 1
+      - path: Armature/Bone/HandIK.R/Hand.R
+        weight: 1
+      - path: Armature/Bone/HandIK.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Bone/Knee.L
+        weight: 1
+      - path: Armature/Bone/Knee.L/Knee.L_end
+        weight: 1
+      - path: Armature/Bone/Knee.R
+        weight: 1
+      - path: Armature/Bone/Knee.R/Knee.R_end
+        weight: 1
+      - path: Cop_01.004
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|walk_1
+      takeName: Armature|walk_1
+      firstFrame: 0
+      lastFrame: 29
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.0464445
+        functionName: sfx_Play_Passo1
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 40c8a3b75ce5c8941a3e37ae8dc58d62,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.51751506
+        functionName: sfx_Play_Passo2
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 40c8a3b75ce5c8941a3e37ae8dc58d62,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Abdomem
+        weight: 1
+      - path: Armature/Bone/Abdomem/Chest
+        weight: 1
+      - path: Armature/Bone/Abdomem/Chest/Head
+        weight: 1
+      - path: Armature/Bone/Abdomem/Chest/Head/Head_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.L/LowerArm.L/LowerArm.L_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.R/LowerArm.R/LowerArm.R_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.L/LowerLeg.L/LowerLeg.L_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.R/LowerLeg.R/LowerLeg.R_end
+        weight: 1
+      - path: Armature/Bone/Elbow.L
+        weight: 1
+      - path: Armature/Bone/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: Armature/Bone/Elbow.R
+        weight: 1
+      - path: Armature/Bone/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: Armature/Bone/FeetIK.L
+        weight: 1
+      - path: Armature/Bone/FeetIK.L/Feet.L
+        weight: 1
+      - path: Armature/Bone/FeetIK.L/Feet.L/Feet.L_end
+        weight: 1
+      - path: Armature/Bone/FeetIK.R
+        weight: 1
+      - path: Armature/Bone/FeetIK.R/Feet.R
+        weight: 1
+      - path: Armature/Bone/FeetIK.R/Feet.R/Feet.R_end
+        weight: 1
+      - path: Armature/Bone/HandIK.L
+        weight: 1
+      - path: Armature/Bone/HandIK.L/Hand.L
+        weight: 1
+      - path: Armature/Bone/HandIK.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Bone/HandIK.R
+        weight: 1
+      - path: Armature/Bone/HandIK.R/Hand.R
+        weight: 1
+      - path: Armature/Bone/HandIK.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Bone/Knee.L
+        weight: 1
+      - path: Armature/Bone/Knee.L/Knee.L_end
+        weight: 1
+      - path: Armature/Bone/Knee.R
+        weight: 1
+      - path: Armature/Bone/Knee.R/Knee.R_end
+        weight: 1
+      - path: Cop_01.004
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|walk_2
+      takeName: Armature|walk_2
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events:
+      - time: 0.05475378
+        functionName: sfx_Play_Passo1
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 40c8a3b75ce5c8941a3e37ae8dc58d62,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      - time: 0.48926353
+        functionName: sfx_Play_Passo2
+        data: 
+        objectReferenceParameter: {fileID: 11500000, guid: 40c8a3b75ce5c8941a3e37ae8dc58d62,
+          type: 3}
+        floatParameter: 0
+        intParameter: 0
+        messageOptions: 0
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Abdomem
+        weight: 1
+      - path: Armature/Bone/Abdomem/Chest
+        weight: 1
+      - path: Armature/Bone/Abdomem/Chest/Head
+        weight: 1
+      - path: Armature/Bone/Abdomem/Chest/Head/Head_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.L/LowerArm.L/LowerArm.L_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.R/LowerArm.R/LowerArm.R_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.L/LowerLeg.L/LowerLeg.L_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.R/LowerLeg.R/LowerLeg.R_end
+        weight: 1
+      - path: Armature/Bone/Elbow.L
+        weight: 1
+      - path: Armature/Bone/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: Armature/Bone/Elbow.R
+        weight: 1
+      - path: Armature/Bone/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: Armature/Bone/FeetIK.L
+        weight: 1
+      - path: Armature/Bone/FeetIK.L/Feet.L
+        weight: 1
+      - path: Armature/Bone/FeetIK.L/Feet.L/Feet.L_end
+        weight: 1
+      - path: Armature/Bone/FeetIK.R
+        weight: 1
+      - path: Armature/Bone/FeetIK.R/Feet.R
+        weight: 1
+      - path: Armature/Bone/FeetIK.R/Feet.R/Feet.R_end
+        weight: 1
+      - path: Armature/Bone/HandIK.L
+        weight: 1
+      - path: Armature/Bone/HandIK.L/Hand.L
+        weight: 1
+      - path: Armature/Bone/HandIK.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Bone/HandIK.R
+        weight: 1
+      - path: Armature/Bone/HandIK.R/Hand.R
+        weight: 1
+      - path: Armature/Bone/HandIK.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Bone/Knee.L
+        weight: 1
+      - path: Armature/Bone/Knee.L/Knee.L_end
+        weight: 1
+      - path: Armature/Bone/Knee.R
+        weight: 1
+      - path: Armature/Bone/Knee.R/Knee.R_end
+        weight: 1
+      - path: Cop_01.004
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|inTupe
+      takeName: Armature|inTupe
+      firstFrame: 0
+      lastFrame: 70
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Abdomem
+        weight: 1
+      - path: Armature/Bone/Abdomem/Chest
+        weight: 1
+      - path: Armature/Bone/Abdomem/Chest/Head
+        weight: 1
+      - path: Armature/Bone/Abdomem/Chest/Head/Head_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.L/LowerArm.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.L/LowerArm.L/LowerArm.L_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.R/LowerArm.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperArm.R/LowerArm.R/LowerArm.R_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.L/LowerLeg.L
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.L/LowerLeg.L/LowerLeg.L_end
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.R/LowerLeg.R
+        weight: 1
+      - path: Armature/Bone/Abdomem/UpperLeg.R/LowerLeg.R/LowerLeg.R_end
+        weight: 1
+      - path: Armature/Bone/Elbow.L
+        weight: 1
+      - path: Armature/Bone/Elbow.L/Elbow.L_end
+        weight: 1
+      - path: Armature/Bone/Elbow.R
+        weight: 1
+      - path: Armature/Bone/Elbow.R/Elbow.R_end
+        weight: 1
+      - path: Armature/Bone/FeetIK.L
+        weight: 1
+      - path: Armature/Bone/FeetIK.L/Feet.L
+        weight: 1
+      - path: Armature/Bone/FeetIK.L/Feet.L/Feet.L_end
+        weight: 1
+      - path: Armature/Bone/FeetIK.R
+        weight: 1
+      - path: Armature/Bone/FeetIK.R/Feet.R
+        weight: 1
+      - path: Armature/Bone/FeetIK.R/Feet.R/Feet.R_end
+        weight: 1
+      - path: Armature/Bone/HandIK.L
+        weight: 1
+      - path: Armature/Bone/HandIK.L/Hand.L
+        weight: 1
+      - path: Armature/Bone/HandIK.L/Hand.L/Hand.L_end
+        weight: 1
+      - path: Armature/Bone/HandIK.R
+        weight: 1
+      - path: Armature/Bone/HandIK.R/Hand.R
+        weight: 1
+      - path: Armature/Bone/HandIK.R/Hand.R/Hand.R_end
+        weight: 1
+      - path: Armature/Bone/Knee.L
+        weight: 1
+      - path: Armature/Bone/Knee.L/Knee.L_end
+        weight: 1
+      - path: Armature/Bone/Knee.R
+        weight: 1
+      - path: Armature/Bone/Knee.R/Knee.R_end
+        weight: 1
+      - path: Cop_01.004
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
