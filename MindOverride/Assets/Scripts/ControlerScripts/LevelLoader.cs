@@ -285,13 +285,10 @@ public class LevelLoader : MonoBehaviour {
                     break;
 
                 case 3:
-                    Cutscene_Handler.controller.fadeInTo(Scene.Credits);
-                    /*
                     loadingMap = this.level3;
                     this.mapMax_x = 30;
                     this.mapMax_y = 21;
                     spawGameCursor(new ponto2D(27,2));
-                    */
                     break;
 
                 case 4:
