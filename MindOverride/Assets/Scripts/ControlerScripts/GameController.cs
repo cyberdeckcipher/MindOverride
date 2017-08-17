@@ -992,7 +992,7 @@ public class GameController : MonoBehaviour {
         {
             return GameController.controller.warGrid[ponto.x][ponto.y];
         }
-        catch (System.NullReferenceException e)
+        catch (System.NullReferenceException)
         {
             Debug.Log("pontoPassado: " + ponto.toString());
         }
